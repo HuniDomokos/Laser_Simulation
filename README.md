@@ -1,2 +1,11 @@
 # Laser_Simulation
-This is a program that simulates the interaction of lasers with mirrors and lenses
+This is a program that simulates the interaction of lasers with mirrors and lenses.
+It uses the ALLEGRO5 library and is written purely in C++.
+
+# Contained files
+This repository contains all the files neccessary to build the program, but the one which probably interests you the most is the main.exe file, with which you can run it and try the simulation for yourself.
+In the main.cpp file you'll find the main logic, whereas the LaserMirror.h file the objects (laser, mirror, lense) are declared and ray-collision is handled.
+
+# Features
+There are 2 seperate laser sources you can turn and move around. To add more you will need to modify the main file and rebuild the executable.
+There are also 2 mirrors (turnable and moveable), which reflect the rays, and 2 lenses (turnable and moveable with different refraction indices), which refract the rays.
