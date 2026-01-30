@@ -27,6 +27,8 @@ int main(int argc, char **argv) {
     al_register_event_source(queue, al_get_keyboard_event_source());
     al_register_event_source(queue, al_get_timer_event_source(timer));
 
+    # Mirrors and lenses are treated as same objects
+    # Only 
     vector<Mirror*> objects;
     objects.push_back(new Mirror(400, 300, 100, 0.45));
     objects.push_back(new Mirror(200, 400, 150, -0.3));
@@ -166,3 +168,4 @@ int main(int argc, char **argv) {
     return 0;
 
 }
+
