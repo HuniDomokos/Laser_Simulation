@@ -13,3 +13,6 @@ There are also 2 mirrors (turnable and moveable), which reflect the rays, and 2 
 # Preview
 
 <img width="804" height="632" alt="Screenshot 2026-01-30 224202" src="https://github.com/user-attachments/assets/34197b99-1aae-4ce9-af1d-cbdf6678adc9" />
+
+# Controls
+You can pick up an object by holding the left mouse button and move it around. Additionally, while having picked up an object, you can turn it by pressing either the left or right arrow key.
